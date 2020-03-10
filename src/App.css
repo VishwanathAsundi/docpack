@@ -1,0 +1,33 @@
+.App {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #ccc;
+}
+
+.login-panel {
+  max-width: 350px;
+  background: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+
+.login-panel .logo-panel {
+  width: 100%;
+  text-align: center;
+}
+
+.login-panel .logo-panel img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=App.css.map */
